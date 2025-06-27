@@ -113,20 +113,6 @@ with st.expander("📚 Library Management System (Django)"):
 Developed a web-based portal for library book management with role-based access and admin dashboard features.  
 """)
 
-# Resume
-st.markdown("<h2 id='resume'>📄 Resume</h2>", unsafe_allow_html=True)
-resume_path = Path("resume/Jithendra_Resume.pdf")
-if resume_path.exists():
-    st.download_button(
-        label="Download My Resume",
-        data=resume_path.read_bytes(),
-        file_name="Jithendra_Resume.pdf",
-        mime="application/pdf"
-    )
-else:
-    st.warning("Resume file not found.")
-# load_resume()
-
 
 # Contact Info
 st.markdown("<h2 id='contact'>📬 Contact Me</h2>", unsafe_allow_html=True)
@@ -136,6 +122,24 @@ st.markdown("<h2 id='contact'>📬 Contact Me</h2>", unsafe_allow_html=True)
 # - 💻 GitHub: [github.com/jithendra1798](https://github.com/jithendra1798)
 # """)
 load_contact()
+
+
+# Resume
+# st.markdown("<h2 id='resume'>📄 Resume</h2>", unsafe_allow_html=True)
+# resume_path = Path("resume/Jithendra_Resume.pdf")
+# if resume_path.exists():
+#     st.download_button(
+#         label="Download My Resume",
+#         data=resume_path.read_bytes(),
+#         file_name="Jithendra_Resume.pdf",
+#         mime="application/pdf"
+#     )
+# else:
+#     st.warning("Resume file not found.")
+load_resume()
+
+
+
 # import streamlit as st
 # from pathlib import Path
 #
