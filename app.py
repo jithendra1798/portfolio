@@ -11,7 +11,7 @@ st.set_page_config(
 # --- SIDEBAR CONTACT CARD ---
 st.sidebar.image("assets/profile.jpg", width=150)
 st.sidebar.markdown("### Jithendra Puppala")
-st.sidebar.write("Data Scientist | MS CS @ NYU Tandon")
+st.sidebar.write("Data Scientist | MS CS @ NYU")
 
 st.sidebar.markdown("""
 <style>
@@ -72,7 +72,7 @@ def load_contact():
 # --- MAIN PAGE CONTENT ---
 
 # About Me
-st.markdown("<h2 id='about-me'>📌 About Me</h2>", unsafe_allow_html=True)
+# st.markdown("<h2 id='about-me'>📌 About Me</h2>", unsafe_allow_html=True)
 load_about_me()
 # about_path = Path("content/about_me.md")
 # if about_path.exists():

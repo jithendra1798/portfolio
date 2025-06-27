@@ -1,4 +1,5 @@
-# 👋 About Me
+#  📌 About Me
+
 
 Hi! I'm **Jithendra Sri SivaKesava Siddartha Puppala**, a graduate student pursuing my M.S. in Computer Science at **NYU Tandon School of Engineering** (Fall 2025–Spring 2027). I am deeply passionate about **Data Science**, **Machine Learning**, and **Computer Vision**, and I thrive at the intersection of research, real-world impact, and scalable systems.
 
